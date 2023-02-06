@@ -1,0 +1,19 @@
+{
+  "name": "com.kjay.helloworld",
+  "version": "0.0.1",
+  "description": "Hello world plugin",
+  "cordova": {
+    "id": "com.kjay.helloworld",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "author": "Kenneth Jay Julianda",
+  "license": "MIT"
+}
