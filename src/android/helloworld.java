@@ -18,7 +18,7 @@ public class helloworld extends CordovaPlugin {
 
             String helloworld = args.getString(0); 
 
-            callbackContext.success(helloworld);
+            callbackContext.success('test');
             
             return true;
         }
