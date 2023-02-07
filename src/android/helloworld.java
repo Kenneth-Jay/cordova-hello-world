@@ -16,9 +16,9 @@ public class helloworld extends CordovaPlugin {
     public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
         if (action.equals("coolMethod")) {
 
-            String helloworld = args.getString(0); 
+            String result = "test"; 
 
-            callbackContext.success("test");
+            callbackContext.success(result);
             
             return true;
         }
